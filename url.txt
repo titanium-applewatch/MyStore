@@ -1,0 +1,1 @@
+itms-services://?action=download-manifest&url=https%3A%2F%2Fdeploygate.com%2Fiphone%2Fusers%2Ftitanium-applewatch%2Fplatforms%2Fios%2Fapps%2Fcom.app.MyMaps%2Fbinaries%2F2%2Finstall_sessions%2Fiosis_9de4fe2ce0ec5418bca55a070a520061%2Fdistribution_plist
