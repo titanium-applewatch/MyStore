@@ -4,12 +4,11 @@ import SwiftUI
 //Slackのbotを利用
 
 struct ContentView: View {
-    let mymapsURL: URL = URL(string: "https://deploygate.com/iphone/users/titanium-applewatch/platforms/ios/apps/com.app.MyMaps/binaries/2")!;
     var body: some View {
         NavigationView {
             List {
                 HStack {
-                    URLImageView(viewModel: .init(url: "https://deploygate.s3.ap-northeast-1.amazonaws.com/icons/176386_cb86e76f3d773660e450f0a70d5a459cc65069b8/icon.png"))
+                    URLImageView(viewModel: .init(url: ""))
                         .cornerRadius(15)
                         .frame(width: 70,height: 70)
                         .shadow(radius: 0.5)
@@ -20,7 +19,7 @@ struct ContentView: View {
                             .foregroundColor(Color.gray)
                     }
                     Spacer()
-                    Link(destination: URL(string: "itms-services://?action=download-manifest&url=https%3A%2F%2Fdeploygate.com%2Fiphone%2Fusers%2Ftitanium-applewatch%2Fplatforms%2Fios%2Fapps%2Fcom.app.MyMaps%2Fbinaries%2F1%2Finstall_sessions%2Fiosis_b22e2785f266c25650922b844ddc8b04%2Fdistribution_plist")!) {
+                    Link(destination: URL(string: "")!) {
                         Text("インストール")
                             .font(.system(size: 14))
                             .fontWeight(.bold)
